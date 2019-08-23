@@ -1,0 +1,23 @@
+/* h4のデザインを設定 */
+h4 {
+	color: blue;
+	font-size: 50px;
+}
+
+#red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+	margin-bottom: 30px;
+	margin-left: 60px;
+}
+
+#yellow {
+	border: 5px solid black;
+	padding: 30px;
+	margin: 30px;
+
+	margin: 50px 100px;
+}

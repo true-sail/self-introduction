@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>HTML_basic</title>
+
+	<style type="text/css">
+		h5{
+			color: red;
+		}
+	</style>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<p>Hello World</p>
+	<ul>
+		<li>a</li>
+		<li>b</li>
+		<li>c</li>
+		<li>d</li>
+		<li>e</li>	
+	</ul>
+
+	<h1>ここがタイトル</h1>
+	<h2>ここがタイトル２</h2>
+	<h3>ここがタイトル３</h3>
+	<p style="font-size: 40px;">ここがタイトル</p>
+	<br>
+	<br>
+	<br>
+
+	<span>ここがスパン１</span>
+	<span>ここがスパン２</span>
+	<span>ここがスパン３</span>
+
+	<h1><span style="color: red;">愛</span>と勇気だけが友達</h1>
+
+	<p style="color: blue;">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+
+	<h5>hogehoge</h5>
+
+	<!-- ここから外部ファイルの練習 -->
+	<h4>外部ファイルでデザインしたよ</h4>
+
+	<p id="red">赤色の文字</p>
+	<p class="blue">青色の文字</p>
+	<p id="yellow">黄色の文字</p>
+	<div>
+		<h1>見出し１</h1>
+		<h2>見出し２</h2>
+		<h3>見出し３</h3>
+		<h4>見出し４</h4>
+		<h5>見出し５</h5>
+		<h6>見出し６</h6>
+	</div>
+	<p>ここは最初の段落です。</p>
+	<p>ここは最初の段落です。<br>ここで改行されます。</p>
+		<ul>
+			<li>項目A</li>
+			<li>項目B</li>
+		</ul>
+
+		<ol>
+			<li>項目１</li>
+			<li>項目２</li>
+		</ol>
+	<div>
+		<table border="1">
+			<caption>表題</caption>
+			<thread>
+				<tr>
+					<th>ヘッダ１</th>
+					<th>ヘッダ２</th>
+				</tr>
+			</thread>
+			<tbody>
+				<tr>
+					<td>１−１</td>
+					<td>２−１</td>
+				</tr>
+				<tr>
+					<td>１−２</td>
+					<td>２−２</td>
+				</tr>
+			</tbody>		
+		</table>
+	</div>	
+
+	<div>
+		<a href="https://nexseed.net">NexSeed</a>
+	</div>
+
+	<div>
+		<a href="#section-01">概要へ移動します</a>
+		<!-- 移動したことがわかりやすいように改行を入れています。-->
+		<br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<h2 id="section-01">概要</h2>
+	</div>
+
+	<div>
+		<img src="http://nexseed.net/images/logo.jpg" alt="NexSeed_logo">
+	</div>
+
+	<div>
+		<form action="" method="post">
+			<div>
+				<!-- テイストボックス -->
+				メール:<input type="text" name="email"><br>
+				<!-- パスワード用のテキストボックス -->
+				パスワード:<input type="password" name="password"><br>
+			</div>
+
+			<div>
+				<!-- セレクトボックス -->
+				<select name="list">
+					<option value="item1">アイテム１</option>
+					<option value="item2">アイテム２</option>
+					<option value="item3">アイテム３</option>
+				</select>
+			</div>
+
+			<div>
+				<!-- チェックボックス -->
+				<input type="checkbox" name="fruit" value="apple">りんご
+				<input type="checkbox" name="fruit" value="apple">みかん
+			</div>
+
+			<div>
+				<!-- ラジオボックス -->
+				<input type="radio" name="region" value="kanto">関東
+				<input type="radio" name="region" value="kanto">東海
+				<input type="radio" name="region" value="kanto">中部
+				<input type="radio" name="region" value="kanto">中国
+				<input type="radio" name="region" value="kanto">九州
+			</div>
+			<!-- フォームデータ送信ボタン -->
+			<input type="submit" value="送信">
+		</form>
+	</div>
+
+
+
+</body>
+</html>

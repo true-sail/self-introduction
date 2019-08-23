@@ -1,0 +1,171 @@
+.header{
+	height: 70px;
+	background-color: darkseagreen;
+	display: flex;
+	justify-content: space-between;
+	font-family: "Times New Roman" ;
+	opacity: 0.8;
+}
+
+.name{
+	font-size: 30px;
+	margin-top: 20px;
+	margin-left: 10px;
+
+}
+
+.menu{
+	
+	margin-right: 30px;
+	margin-top: 20px;
+}
+
+.menu1{
+	font-size: 30px;
+	text-decoration: underline;
+	margin-right: 10px;
+}
+
+.menu2{
+	font-size: 30px;
+	text-decoration: underline;
+	margin-right: 10px;
+}
+
+.menu3{
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+.welcome{
+	/* background-image: url(./img_m.i.jpg); */
+	background-size: cover;
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	height: 110vh;
+	position: relative;
+
+}
+
+.font{
+	font-size: 80px;
+	color: slateblue;
+	padding: 280px 50px 100px 150px;
+	font-style: italic;
+	font-family: "Times New Roman" ;
+	position: absolute;
+	z-index: 100;
+	}
+
+
+
+#slideshow{
+	/* overflow: hidden; */
+	
+	position: relative;
+	top: 0;
+	
+}
+
+#slideshow img{
+	/* display: none; */
+	position:absolute;
+	z-index: 99;
+	height: 110vh;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+
+.main{
+	height: 100vh;
+	background-size: cover;
+	font-family: "Times New Roman" ;
+}
+
+#about{
+	background-image: url(./img_biwako1.JPG);
+	background-size: cover;
+	height: 110vh;
+	background-repeat: no-repeat;
+	color: black;
+
+}
+
+.title{
+	font-size: 60px;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.information{
+	font-size: 40px;
+	margin: 0px 30px 40px 30px;
+	
+	color: white;
+	
+}
+
+.information ul{
+	margin: 40px 20px 30px 40px;
+
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+
+#favorites{
+	font-size: 60px;
+	padding-top: 20px;
+	padding-left: 50px;
+	font-family: "Times New Roman";
+	background-image: url(./img_favorite.jpg);
+	background-size: cover;
+	height: 700px;
+	background-repeat: no-repeat;
+	color: gray;
+}
+
+.details{
+	font-size: 40px;
+	margin-top: 60px;
+
+
+}
+
+.details2{
+	font-size: 35px;
+}
+
+.details ul{
+	margin: 50px 30px 40px 30px;
+}
+
+
+
+#footer{
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+
+.icons{
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+
+
+	
+}
+
+.icons i{
+	margin: 20px;
+}
+
+

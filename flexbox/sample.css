@@ -1,0 +1,41 @@
+.header {
+	height: 50px;
+	background-color: skyblue;
+	display: flex;
+	justify-content: space-between;
+}
+
+.welcome {
+	height: 600px;
+	background-color: brown;	
+}
+
+.main {
+	height: 600px;
+	background-color: pink;	
+}
+
+.footer {
+	height: 50px;
+	background-color: black;	
+}
+
+.menu {
+	display: flex;
+}
+
+.programming {
+	display: flex;
+	justify-content: space-between;
+}
+
+.english {
+	display: flex;
+	justify-content: space-between;
+}
+
+.img {
+	margin-left: 50px;
+}
+
+
