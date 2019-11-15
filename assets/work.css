@@ -1,0 +1,55 @@
+/* ヘッダー共通部分 */
+.row {
+    width: 100%;
+    padding: 0, 0; 
+    margin-left: 0px;
+}
+
+.slide {
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+}
+
+
+.navbar-brand {
+    font-size: 20px;
+    color: white;
+    
+}
+
+
+
+.nav-link {
+    font-size: 18px;
+    color: white;
+}
+
+a.nav-link {
+    padding-right: 0;
+}
+
+.navbar-toggler {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* ここまで */
+
+
+
+
+
+
+/* フッター共通部分 */
+
+footer {
+    padding-top: 140px;
+}
+
+/* .text-center {
+    color: white;
+} */
+
+.copyright {
+    font-size: 10px;
+}

@@ -1,0 +1,126 @@
+
+/* ヘッダー共通部分 */
+.row {
+    width: 100%;
+    padding: 0, 0; 
+    margin-left: 0px;
+}
+
+.slide {
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+}
+
+
+.navbar-brand {
+    font-size: 20px;
+    color: white;
+    
+}
+
+
+
+.nav-link {
+    font-size: 18px;
+    color: white;
+}
+
+a.nav-link {
+    padding-right: 0;
+}
+
+.navbar-toggler {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+/* ここまで */
+
+body {
+    /* height: 100vh; */
+}
+
+.background {
+    background-image: url("../img/biwako.jpg");
+    background-size: cover;
+    /* height: 100vh; */
+    height: 100%;    
+}
+
+.container {
+    padding-top: 180px;
+}
+
+.window {
+    width:100px;
+    height: 100px;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+    /* color: white;     */
+    font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    /* color: white; */
+    font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif
+}
+
+.modal-content {
+    background-color: rgb(255, 221, 158);
+}
+/* 
+.btn.outline {
+    background: none;　 
+    
+} */
+
+/* .home {
+    padding-top: 200px;
+
+}
+
+.greet {
+    display: flex;
+    justify-content: center;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+}
+
+ .img{
+    background-image: url(../img/maho4.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;  
+ }
+ 
+ .text-center.text-light {
+     font-size: 20px;
+     display: flex;
+     justify-content: center;
+ } */
+
+
+ /* フッター共通部分 */
+
+ footer {
+     padding-top: 140px;
+ }
+
+ /* .text-center {
+     color: white;
+ } */
+ 
+ .copyright {
+     font-size: 10px;
+ }
