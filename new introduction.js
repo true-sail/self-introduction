@@ -44,7 +44,7 @@ $("#slideshow").each(function(){
 
 
     $slides.eq(currentIndex).fadeIn();
-    setInterval(showNextSlide,2000);
+    setInterval(showNextSlide,1500);
     function showNextSlide(){
         let nextIndex = (currentIndex + 1)% slideCount;
     $slides.eq(currentIndex).fadeOut();
