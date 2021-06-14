@@ -11,14 +11,11 @@
     font-size: 60px;
 }
 
-
 .navbar-brand {
     font-size: 20px;
     color: white;
     
 }
-
-
 
 .nav-link {
     font-size: 18px;
@@ -40,7 +37,7 @@ a.nav-link {
 /* ここまで */
 
 body {
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .background {
@@ -84,7 +81,6 @@ p {
 
 /* .home {
     padding-top: 200px;
-
 }
 
 .greet {

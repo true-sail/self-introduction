@@ -11,14 +11,11 @@
     font-size: 60px;
 }
 
-
 .navbar-brand {
     font-size: 20px;
     color: white;
     
 }
-
-
 
 .nav-link {
     font-size: 18px;
@@ -34,8 +31,6 @@ a.nav-link {
     top: 0;
     right: 0;
 }
-
-
 /* ここまで */
 
 section {
@@ -44,11 +39,7 @@ section {
 
 p {
     font-size: 20px;
-  
-    
 }
-
-
 
 h3 {
     color: palevioletred;
