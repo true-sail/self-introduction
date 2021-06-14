@@ -10,14 +10,10 @@
     font-size: 60px;
 }
 
-
 .navbar-brand {
     font-size: 20px;
     color: white;
-    
 }
-
-
 
 .nav-link {
     font-size: 18px;
@@ -35,20 +31,15 @@ a.nav-link {
 }
 /* ここまで */
 
-
-
-
-
+.container {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* フッター共通部分 */
-
 footer {
     padding-top: 140px;
 }
-
-/* .text-center {
-    color: white;
-} */
 
 .copyright {
     font-size: 10px;
